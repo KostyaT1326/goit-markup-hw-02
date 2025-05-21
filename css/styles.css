@@ -1,13 +1,100 @@
-a {
-    text-decoration: none;
+/* ========VARIABLES======== */
+:root {
+    --main-text-color: #2e2f42;
+    --secondary-text-color: #434455;
+    --tertiary-text-color: #f4f4fd;
+    --main-background-color: #fff;
+    --main-font: 16px;
+    --main-line-height: 1.5;
+    --main-text-color-hover-focus: #404bbf;
+
+
 }
 body {
     font-family: "Roboto", sans-serif;
-    margin: 0;
-    width: 1440px;
-    height: 2060px;
+    color: var(--main-text-color);
+    font-size: var(--main-font);
+    background-color: var(--main-background-color);
+    line-height: var(--main-line-height);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* ========HEADER======== */
+.container-page-header {
     box-sizing: border-box;
-    }
+    display: flex;
+
+}
+
+.page-nav {
+        padding-left: 156px;
+
+}
+
+.saite-logo {
+    text-transform: uppercase;
+}
+
+.logo-text-blue {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #4d5ae5;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+
+}
+
+.logo-text-purple {
+    color: var(--main-text-color);
+    font-weight: 700;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+}
+
+.page-menu {
+    display: flex;
+        gap: 76px;
+    
+}
+
+.page-menu-item {
+    justify-content: center;
+    align-items: center;
+    gap: 76px;
+}
+
+.page-menu-link{
+    color: var(--main-text-color);
+}
+
+.page-menu-link:hover,
+.page-menu-link:focus {
+    color: var(--main-text-color);
+}
+
+.cont_mail_tel {
+    padding-right: 156px;
+        align-items: center;
+        letter-spacing: 0.02em;
+        font-style: normal;
+
+}
+
+==================================================================================
 .header-page-container {
     width: 1440px;
     height: 72px;
