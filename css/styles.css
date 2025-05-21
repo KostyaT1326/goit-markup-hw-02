@@ -16,11 +16,19 @@ body {
     font-size: var(--main-font);
     background-color: var(--main-background-color);
     line-height: var(--main-line-height);
+    max-width: 1440px;
+    max-height: auto;
 
 }
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+a:hover,
+a:focus {
+    color: var(--main-text-color-hover-focus);
 }
 
 ul,
@@ -35,163 +43,89 @@ button {
 
 /* ========HEADER======== */
 .container-page-header {
-    box-sizing: border-box;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 156px;
+    box-sizing: border-box;
+    height: 72px;
+    width: 1440px;
+    
 
 }
 
 .page-nav {
-        padding-left: 156px;
+    display: flex;
+    align-items: center;
+    gap: 76px;
+
 
 }
 
 .saite-logo {
     text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    gap: 0;
 }
 
 .logo-text-blue {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
     color: #4d5ae5;
-    line-height: 1.16667;
     letter-spacing: 0.03em;
 
 }
 
 .logo-text-purple {
     color: var(--main-text-color);
-    font-weight: 700;
-    line-height: 1.16667;
     letter-spacing: 0.03em;
 }
 
 .page-menu {
     display: flex;
-        gap: 76px;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     
-}
-
-.page-menu-item {
-    justify-content: center;
-    align-items: center;
-    gap: 76px;
 }
 
 .page-menu-link{
     color: var(--main-text-color);
 }
 
-.page-menu-link:hover,
-.page-menu-link:focus {
-    color: var(--main-text-color);
-}
 
-.cont_mail_tel {
-    padding-right: 156px;
-        align-items: center;
-        letter-spacing: 0.02em;
-        font-style: normal;
 
-}
-
-==================================================================================
-.header-page-container {
-    width: 1440px;
-    height: 72px;
-    display: flex;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.logo {
-    padding-left: 156px; 
-}
-
-.logo-Text-blue {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    box-sizing: border-box;   
-}
-
-.logo-Text-black {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
-}
-
-.main-nav {
-    display: flex;
-    align-items: center;
-    gap: 76px;
-}
-
-.nav-menu {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 40px;
-}
-
-.nav-menu a {
-    text-decoration: none;
-    color: #2e2f42; 
-}
-
-.cont_mail_tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    padding-right: 156px;
-    display: flex;
-    align-items: center;
-}
-
-.cont_mail_tel ul {
-    list-style: none;
+.cont-mail-tel {
     display: flex;
     gap: 40px;
-    margin: 0;
-    padding: 0;
+    align-items: center;
     font-style: normal;
+    margin: 0;
+    padding: 0;
 }
 
-.cont_mail_tel a {
-    text-decoration: none;
-    color: #434455;
-}
+/* ========HERO SECTION======== */
 
-.main-page-container {
+.container {
     width: 1440px;
     height: 600px;
-    background: #2e2f42;
-    box-sizing: border-box;
+    background-color: #2e2f42;
 }
 
-
-.main-page-text-container {
+.hero-section {
+    height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.main-title {
     padding-top: 188px;
     padding-left: 472px;
     padding-right: 472px;
-    box-sizing: border-box;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
@@ -200,166 +134,294 @@ button {
     color: #fff;
 }
 
-.main-page-batton {
+.order-service-button {
     display: block;
-    margin: 0 auto;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-    color: #fff;
-    text-align: center;
-    border: none;
-    cursor: pointer;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #4d5ae5;
+        color: #fff;
+        text-align: center;
+        border: none;
 }
 
-.benefits-page-container {
-    width: 1128px;
-    height: 104px;
-    border: none;
-    box-sizing: border-box;
-    list-style: none;
-    display: flex;
-    margin: 0 auto;
+/* ========BENEFITS SECTION======== */
+.benefits-section{
+        border: none;
+        box-sizing: border-box;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
 }
-.team-card-container {
+.benefits-container {
+
+}
+
+.benefits-list {
+    width: 1125px;
+    display: flex;
+    gap: 24px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.benefit-list-item {
+    display: flex;
+        flex-direction: column;
+        gap: 8px;
+}
+.benefit-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    margin: 0;
+}
+
+.benefit-list-text {
+    font-weight: 400;
+    font-size: var(--main-font);
+    line-height: var(--main-line-height);
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin: 0;
+}
+
+/*--OUR TEAM SECTION--*/
+
+.our-team-section {
     width: 1440px;
     height: 732px;
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.Our-Team {|
+.section-title {
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
-    padding-top: 120px;
-    box-sizing: border-box;
+    color: var(--main-text-color);
+    margin: 0 0 72px;    
 }
 
-.team-card-list {
-    box-sizing: border-box;
-    list-style: none;
+.team-list {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding-left: 156px;
-    padding-right: 156px;
     gap: 24px;
+    margin: 0;
 }
 
-.team-card-mark-guerrero {
+.team-list-card {
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
+    background: var(--main-background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
 }
 
-.name-mark-guerrero {
+.team-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
+    color: var(--main-text-color);
+    margin: 0;
 }
 
-.position-mark-guerrero {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+.team-list-text {
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
+    color: var(--secondary-text-color);
+    margin: 0;
+}
+.team-list-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+
 }
 
-.team-card-tom-ford {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
+/*--OUR PORTFOLIO SECTION--*/
+
+.container-portfolio{
+width: 1128px;
+height: 1000px;
+background: var(--main-background-color);
+padding-top: 120px;
+padding-bottom: 120px;
+
 }
 
-.name-tom-ford {
+
+.our-portfolio {
+    display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--main-text-color);
+
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    **justify-content: center;**
+}
+
+.project-card {
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 420px;
+    background: var(--main-background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 0 calc((100% - 48px) / 3);
+    box-sizing: border-box;
+}
+
+.card-content {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--main-text-color);
+        margin: 0;
+}
+
+.project-card-text {
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
+    color: var(--secondary-text-color);
+    margin: 0;
 }
 
-.position-tom-ford {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+/*--FOOTER SECTION--*/
+
+.saite-logo-footer {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    gap: 0;
+}
+
+.logo-text-blue {
+    color: #4d5ae5;
+    letter-spacing: 0.03em;
+
+}
+
+.logo-text-purple {
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
+}
+
+.footer-text {
     letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
+    color: var(--tertiary-text-color);
+
 }
 
-.team-card-camila-garcia {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
-}
 
-.name-camil-garcia {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
 
-.position-camil-garcia {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
 
-.team-card-daniel-wilson {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
-}
 
-.name-daniel-wilson {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
 
-.position-daniel-wilson {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
+
+
+
+
+
+
+
+
+
+/*==TEMP==*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-page {
     width: 1440px;
     height: 312px;
