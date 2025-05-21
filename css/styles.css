@@ -12,7 +12,7 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--main-text-color);
+    color: #434455;
     font-size: var(--main-font);
     background-color: var(--main-background-color);
     line-height: var(--main-line-height);
@@ -326,23 +326,32 @@ padding-bottom: 120px;
 
 /*--FOOTER SECTION--*/
 
+.footer-page{
+    width: 1440px;
+        height: 312px;
+        background: #2e2f42;
+}
+
 .saite-logo-footer {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     display: flex;
+    color: #4d5ae5;
     gap: 0;
 }
 
 .logo-text-blue {
-    color: #4d5ae5;
+
     letter-spacing: 0.03em;
 
 }
 
 .logo-text-purple {
-    color: var(--main-text-color);
+    color: var(--tertiary-text-color);
     letter-spacing: 0.03em;
 }
 
@@ -350,121 +359,4 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: var(--tertiary-text-color);
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*==TEMP==*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer-page {
-    width: 1440px;
-    height: 312px;
-    background: #2e2f42;
-}
-
-.logo-footer-position {
-    padding-top: 100px;
-    padding-left: 156px;
-    box-sizing: border-box;
-
-}
-.logo-footer-Text-blue {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-
-}
-
-.logo-footer-Text-white {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
-}
-
-
-
-.recommendation {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding-left: 156px;
-    padding-top: 16px;
-    padding-right: 1020px;
-    box-sizing: border-box;
 }
