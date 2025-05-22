@@ -134,7 +134,7 @@ section {
     background-color: #2e2f42;
 }
 
-.hero-hero-wrapper {
+.main-hero-wrapper {
 
 
 
@@ -144,30 +144,29 @@ section {
 }
 
 .main-title {
-    font-weight: 700;
     font-size: 56px;
-    text-align: center;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    text-align: center;
+    font-weight: 700;
 }
 
-.order-service-button {
+.hero-service-button {
+    background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #4d5ae5;
+    letter-spacing: 0.04em;   
     color: #ffffff;
     text-align: center;
     border: none;
-    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
-.order-service-button:hover,
-.order-service-button:focus {
+.hero-service-button:hover,
+.hero-service-button:focus {
     background-color: #404bbf;
 }
 
@@ -238,7 +237,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
 
-    border-radius: 0 0 4px 4px;
+
     text-align: center;
 }
 
