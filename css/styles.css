@@ -58,9 +58,6 @@ section {
 }
 
 .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -71,7 +68,7 @@ section {
     justify-content: space-between;
 }
 
-.saite-logo {
+.site-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -79,10 +76,10 @@ section {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+    text-decoration: none;
 }
 
-.logo-text-purple {
+.logo-accent {
     color: #2e2f42;
 }
 
@@ -105,6 +102,12 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.page-menu-link:hover,
+.page-menu-link:focus {
+    color: #404bbf;
 }
 
 .contact-info{
@@ -113,15 +116,20 @@ section {
 
 .cont-mail-list {
     display: flex;
-        column-gap: 40px;
-        padding-left: 0;
+    column-gap: 40px;
+    padding-left: 0;
 }
 .cont-mail-tel {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
+}
 
+.cont-mail-tel:hover,
+.cont-mail-tel:focus {
+    color: #404bbf;
 }
 
 /* ========HERO SECTION======== */
@@ -151,22 +159,20 @@ section {
 }
 
 .order-service-button {
-    display: block;
-    margin: 0 auto;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     background-color: #4d5ae5;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     border: none;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
-.main-button:hover,
-.main-button:focus {
+.order-service-button:hover,
+.order-service-button:focus {
     background-color: #404bbf;
 }
 
@@ -192,8 +198,7 @@ section {
 }
 
 .benefit-list-item {
-    width: 264px;
-    height: 104px;
+
 }
 
 .benefit-list-title {
@@ -215,11 +220,15 @@ section {
 /*--OUR TEAM SECTION--*/
 .our-team-section {
     background: #f4f4fd;
+    padding: 60px 0;
 }
 
 .team-title {
     line-height: 1.11;
     text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
@@ -232,19 +241,20 @@ section {
     align-items: center;
     column-gap: 24px;
     padding-left: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .team-list-card {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
+    padding-bottom: 32px;
     background-color: var(--main-background-color);
     line-height: 1.2;
     letter-spacing: 0.02em;
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    padding: 32px 0;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
 }
 
 .team-list-title {
@@ -255,6 +265,7 @@ section {
     text-align: center;
     color: var(--main-text-color);
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -262,6 +273,8 @@ section {
     text-align: center;
     color: var(--secondary-text-color);
     margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /*--OUR PORTFOLIO SECTION--*/
@@ -276,21 +289,16 @@ section {
 }
 
 .portfolio-list {
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    flex-wrap: wrap;
-    row-gap: 48px;
-    padding:0;
+    padding: 0;
+    margin: 0;
 }
 
 .project-card {
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
+
 }
 
-.card-content {
+.project-card-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -320,7 +328,7 @@ section {
     padding-left: 156px;
 }
 
-.saite-logo-footer {
+.site-logo-footer {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -330,7 +338,7 @@ section {
     color: #4d5ae5;
 }
 
-.saite-logo-sapn {
+.logo-accent-footer {
     color: #f4f4fd;
 }
 
