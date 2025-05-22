@@ -16,7 +16,6 @@ body {
     font-size: var(--main-font);
     background-color: var(--main-background-color);
     line-height: var(--main-line-height);
-    max-width: 1440px;
     max-height: auto;
 
 }
@@ -41,30 +40,28 @@ button {
 }
 
 .container {
-    max-width: 1158px;
-    padding: 0 15px;
+
     margin: 0 auto;
 }
 
 section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+
 }
 
 /* ========HEADER======== */
 
 .header-page {
-    border-bottom: 1px solid #e7e9fc;
+
 }
 
 .wrapper {
-    margin-top: 8px;
+
     margin-bottom: 8px;
 }
 
 .page-nav {
-    display: flex;
-    align-items: center;
+
+
     justify-content: space-between;
 }
 
@@ -84,9 +81,9 @@ section {
 }
 
 .page-menu {
-    display: flex;
-    column-gap: 40px;
-    padding-left: 0;    
+
+
+    
 }
 
 .page-menu-item{
@@ -115,9 +112,8 @@ section {
 }
 
 .cont-mail-list {
-    display: flex;
-    column-gap: 40px;
-    padding-left: 0;
+
+
 }
 .cont-mail-tel {
     font-size: 16px;
@@ -139,16 +135,15 @@ section {
 }
 
 .hero-hero-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 68px;
-    padding-bottom: 68px;
+
+
+
+
+
 
 }
 
 .main-title {
-    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     text-align: center;
@@ -178,23 +173,14 @@ section {
 
 /* ========BENEFITS SECTION======== */
 .visually-hidden{
-    position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
 
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
 }
 
+
 .benefits-list {
-    display: flex;
-    padding-left: 0;
-    column-gap: 24px;
+
+
+;
 }
 
 .benefit-list-item {
@@ -220,7 +206,7 @@ section {
 /*--OUR TEAM SECTION--*/
 .our-team-section {
     background: #f4f4fd;
-    padding: 60px 0;
+
 }
 
 .team-title {
@@ -236,11 +222,10 @@ section {
 }
 
 .team-list {
-    display: flex;
+
     justify-content: space-between;
-    align-items: center;
-    column-gap: 24px;
-    padding-left: 0;
+
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -248,11 +233,11 @@ section {
 }
 
 .team-list-card {
-    padding-bottom: 32px;
+
     background-color: var(--main-background-color);
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding: 32px 0;
+
     border-radius: 0 0 4px 4px;
     text-align: center;
 }
@@ -289,7 +274,7 @@ section {
 }
 
 .portfolio-list {
-    padding: 0;
+
     margin: 0;
 }
 
@@ -304,8 +289,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
-    margin-left: 16px;
+
     margin-bottom: 8px;
 }
 
@@ -314,8 +298,7 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-top: 8px;
-    margin-left: 16px;
+
     margin-bottom: 32px;
 }
 
@@ -323,9 +306,8 @@ section {
 
 .footer-page{
     background: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 156px;
+
+
 }
 
 .site-logo-footer {
@@ -344,8 +326,7 @@ section {
 
 
 .footer-text {
-    max-width: 264px;
-    margin-top: 16px;
+
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--tertiary-text-color);
