@@ -39,14 +39,14 @@ button {
     cursor: pointer;
 }
 
-.container {
+/*.container 
 
     margin: 0 auto;
 }
 
 section {
 
-}
+} */
 
 /* ========HEADER======== */
 
@@ -178,8 +178,6 @@ section {
 
 .benefits-list {
 
-
-;
 }
 
 .benefit-list-item {
