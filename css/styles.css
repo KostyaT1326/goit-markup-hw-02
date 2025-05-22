@@ -130,11 +130,11 @@ section {
 
 /* ========HERO SECTION======== */
 
-.main-hero {
+.hero-section {
     background-color: #2e2f42;
 }
 
-.main-hero-wrapper {
+.hero-section-bottom-content {
 
 
 
@@ -143,7 +143,7 @@ section {
 
 }
 
-.hero-title {
+.main-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -152,7 +152,7 @@ section {
     font-weight: 700;
 }
 
-.btn-primary {
+.btn_service {
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -165,8 +165,8 @@ section {
     cursor: pointer;
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
+.btn_service:hover,
+.btn_service:focus {
     background-color: #404bbf;
 }
 
