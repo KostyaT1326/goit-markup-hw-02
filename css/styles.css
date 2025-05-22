@@ -20,33 +20,6 @@ body {
 
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover,
-a:focus {
-    color: var(--main-text-color-hover-focus);
-}
-
-ul,
-ol {
-    list-style: none;
-}
-
-button {
-    cursor: pointer;
-}
-
-/*.container 
-
-    margin: 0 auto;
-}
-
-section {
-
-} */
 
 /* ========HEADER======== */
 
