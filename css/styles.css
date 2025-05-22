@@ -143,7 +143,7 @@ section {
 
 }
 
-.main-hero-title {
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -152,7 +152,7 @@ section {
     font-weight: 700;
 }
 
-.main-hero-service-button {
+.btn-primary {
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -165,8 +165,8 @@ section {
     cursor: pointer;
 }
 
-.main-hero-service-button:hover,
-.main-hero-service-button:focus {
+.btn-primary:hover,
+.btn-primary:focus {
     background-color: #404bbf;
 }
 
