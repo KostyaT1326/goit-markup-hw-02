@@ -5,7 +5,6 @@
     --tertiary-text-color: #f4f4fd;
     --main-background-color: #fff;
     --main-font: 16px;
-    --main-line-height: 1.5;
     --main-text-color-hover-focus: #404bbf;
 
 
@@ -15,7 +14,6 @@ body {
     color: #434455;
     font-size: var(--main-font);
     background-color: var(--main-background-color);
-    line-height: var(--main-line-height);
     max-height: auto;
 
 }
@@ -77,9 +75,9 @@ body {
     color: #404bbf;
 }
 
-/*.contact-info{
+.contact-info{
     font-style: normal;
-}*/
+}
 
 .cont-mail-list {
 
